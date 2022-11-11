@@ -14,7 +14,6 @@ const Home = ({ toDos, addToDo }) => {
     e.preventDefault();
     setText('');
     addToDo(Text);
-    console.log(toDos);
   };
 
   return (
